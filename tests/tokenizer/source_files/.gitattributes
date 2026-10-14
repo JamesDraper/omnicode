@@ -1,0 +1,2 @@
+# Keep fixtures byte for byte: some tests rely on specific line endings or invalid UTF-8.
+* -text
