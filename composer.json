@@ -15,6 +15,10 @@
         "friendsofphp/php-cs-fixer": "^3.95"
     },
     "scripts": {
+        "test": [
+            "@phpstan",
+            "@php-cs-fixer"
+        ],
         "phpstan": "phpstan analyse",
         "php-cs-fixer": "php-cs-fixer fix -v --diff --dry-run"
     }
