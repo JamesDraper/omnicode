@@ -4,6 +4,4 @@ declare(strict_types=1);
 
 namespace OmniCode\Token;
 
-enum Index: int
-{
-}
+enum Index: int {}

@@ -11,9 +11,11 @@
         "symfony/console": "^8.1"
     },
     "require-dev": {
-        "phpstan/phpstan": "^2.3"
+        "phpstan/phpstan": "^2.3",
+        "friendsofphp/php-cs-fixer": "^3.95"
     },
     "scripts": {
-        "phpstan": "phpstan analyse"
+        "phpstan": "phpstan analyse",
+        "php-cs-fixer": "php-cs-fixer fix -v --diff --dry-run"
     }
 }
