@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "psr-4": {
+            "OmniCode\\": "src/autoload"
+        }
+    },
     "require": {
         "php": ">=8.5.1"
     }
