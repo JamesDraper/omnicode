@@ -1,10 +1,13 @@
 {
+    "bin": ["src/omnicode"],
     "autoload": {
         "psr-4": {
             "OmniCode\\": "src/autoload"
         }
     },
     "require": {
-        "php": ">=8.5.1"
+        "php": ">=8.5.1",
+        "composer-runtime-api": "^2.2",
+        "symfony/console": "^8.1"
     }
 }
